@@ -7,10 +7,10 @@ public class AdapterDemo {
         MediaPlayer player = new MP3();
         player.play("song.mp3");
 
-        player = new MediaFormatAdapter(new MP4());
+        player = new MediaAdapter(new MP4());
         player.play("song.mp4");
 
-        player = new MediaFormatAdapter(new VLC());
+        player = new MediaAdapter(new VLC());
         player.play("song.avi");
     }
 

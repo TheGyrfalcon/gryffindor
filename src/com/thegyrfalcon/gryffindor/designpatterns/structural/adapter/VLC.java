@@ -1,6 +1,6 @@
 package com.thegyrfalcon.gryffindor.designpatterns.structural.adapter;
 
-public class VLC implements MediaPackage {
+public class VLC implements AdvancedMediaPlayer {
 
     @Override
     public void play(String fileName) {

@@ -1,5 +1,5 @@
 package com.thegyrfalcon.gryffindor.designpatterns.structural.adapter;
 
-public interface MediaPackage {
+public interface AdvancedMediaPlayer {
     public void play(String fileName);
 }
