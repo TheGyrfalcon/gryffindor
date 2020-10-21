@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * Create a list of Books ( Title, Price, Rating )
- * Sort by Desc
+ * Sort by Desc (by name)
  * Filter books by Rating.
  */
 public class Library {
